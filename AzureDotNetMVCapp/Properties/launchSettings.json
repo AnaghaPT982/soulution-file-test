@@ -13,14 +13,15 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "environmentVariables": {
-        "AZURE_SQL_ASPNETCORE_ENVIRONMENT": "Development"
+        "applicationUrl": "https://localhost:7268;http://localhost:5033",
+        "AZURE_PGSQL_ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "AZURE_SQL_ASPNETCORE_ENVIRONMENT": "Development"
+        "AZURE_PGSQL_ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
   }
