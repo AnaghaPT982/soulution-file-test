@@ -14,14 +14,14 @@
       "launchBrowser": true,
       "environmentVariables": {
         "applicationUrl": "https://localhost:7268;http://localhost:5033",
-        "AZURE_PGSQL_ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "AZURE_PGSQL_ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
   }
