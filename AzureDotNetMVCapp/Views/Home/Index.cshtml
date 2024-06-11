@@ -1,0 +1,57 @@
+﻿@{
+   ViewBag.Title="Sunscreen";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+
+</head>
+<body>
+   
+   <table>
+    <thead>
+        <tr>
+            <th>
+                SunscreenId
+            </th>
+            <th>
+                SunscreenName
+            </th>
+            <th>
+                PA Rating
+            </th>
+            <th>
+                SPF Strength
+            </th>
+            <th>
+                OxyBenzenoneFree
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in ViewBag.Sunscreen){
+        <tr>
+        <td> @item.SunscreenId
+    </td>
+    <td>
+          @item.SunscreenName
+    </td>
+    <td>
+         @item.PARating
+    </td>
+    <td>
+        @item.SPF
+    </td>
+    <td>
+        @item.OxyBenzenoneFree
+    </td>
+    </tr>
+    }
+    </tbody>
+</table>
+ </body>
+</html>
