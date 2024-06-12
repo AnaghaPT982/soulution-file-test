@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\soulution-file-test\AzureDotNetMVCapp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/soulution-file-test/AzureDotNetMVCapp/Views/Home/Health.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZWFsdGguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/soulution-file-test/AzureDotNetMVCapp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
