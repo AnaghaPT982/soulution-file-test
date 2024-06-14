@@ -3,3 +3,5 @@ CREATED THE APP WITHOUT CREATING ANOTHER FOLDER INSIDE THE D DRIVE, SO NOW THE S
 
 deployed, need to remove the connection string from program.cs, as env is configuired connection string won't get effected by the replacement.
 
+this application displays basic info about sunscreen
+
